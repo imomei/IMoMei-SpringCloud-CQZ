@@ -1,4 +1,4 @@
-package com.imomei.dao;
+package com.imomei.mapper;
 
 import com.imomei.common.req.IMoMeiPage;
 import com.imomei.entity.Member;

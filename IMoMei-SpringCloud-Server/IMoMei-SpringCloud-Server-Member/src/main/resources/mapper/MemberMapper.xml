@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.imomei.dao.MemberMapper">
+<mapper namespace="com.imomei.mapper.MemberMapper">
 
     <!--分页查询所有Member-->
-    <select id="getMemberList" parameterType="" resultType="com.imomei.entity.Member">
+    <select id="getMemberList" resultType="Member">
         SELECT
             *
         FROM
@@ -11,7 +11,7 @@
     </select>
 
     <!--根据ID查询Member-->
-    <select id="getMemberByID" parameterType="int" resultType="com.imomei.entity.Member">
+    <select id="getMemberByID" parameterType="int" resultType="Member">
         SELECT
             *
         FROM
@@ -21,7 +21,7 @@
     </select>
 
     <!--新增Member-->
-    <insert id="setMember" parameterType="com.imomei.entity.Member">
+    <insert id="setMember" parameterType="Member">
         INSERT INTO
             member
         VALUES
