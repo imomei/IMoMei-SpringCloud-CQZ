@@ -25,25 +25,11 @@ public class IMoMeiResult implements Serializable {
     // 总记录数
     private String total;
 
-    /**
-     * 成功无数据
-     */
-    public static IMoMeiResult OK() {
-        return new IMoMeiResult(IMoMeiResultCode.SUCCESS, "操作成功", null, null);
-    }
-
-    /**
-     * 成功有数据
-     */
-    public static IMoMeiResult OK(Object data) {
-        return new IMoMeiResult(IMoMeiResultCode.SUCCESS, "操作成功", data, null);
-    }
-
-    /**
-     * 快速失败无数据
-     */
-    public static IMoMeiResult ERROR(int code, String msg) {
-        return new IMoMeiResult(code, msg, null, null);
+    public IMoMeiResult(Integer code, String msg) {
+        this.code = code;
+        this.msg = msg;
+        this.data = null;
+        this.total = null;
     }
 
 }

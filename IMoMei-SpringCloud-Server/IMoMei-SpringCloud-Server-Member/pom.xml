@@ -12,10 +12,31 @@
     <artifactId>IMoMei-SpringCloud-Server-Member</artifactId>
 
     <dependencies>
+        <!--IMoMei-->
         <dependency>
             <artifactId>IMoMei-SpringCloud-Entity-Member</artifactId>
             <groupId>com.imomei</groupId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--Druid-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+        </dependency>
+        <!--PageHelper-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+        </dependency>
+        <!--MySQL-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <!--Mybatis-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
         </dependency>
     </dependencies>
 

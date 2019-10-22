@@ -2,9 +2,11 @@ package com.imomei.entity;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
-public class Member {
+public class Member implements Serializable {
     private String id;
-    private String memberName;
-    private int memberage;
+    private String name;
+    private int age;
 }
