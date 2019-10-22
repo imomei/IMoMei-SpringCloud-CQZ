@@ -12,8 +12,6 @@ import java.io.Serializable;
  */
 
 @Data // Get&Set
-@NoArgsConstructor // 空参
-@AllArgsConstructor // 全参
 public class IMoMeiResult implements Serializable {
 
     // 返回状态码
@@ -25,11 +23,28 @@ public class IMoMeiResult implements Serializable {
     // 总记录数
     private String total;
 
+    // 无数据返回
     public IMoMeiResult(Integer code, String msg) {
         this.code = code;
         this.msg = msg;
         this.data = null;
         this.total = null;
+    }
+
+    // 有数据返回
+    public IMoMeiResult(Integer code, String msg, Object data) {
+        this.code = code;
+        this.msg = msg;
+        this.data = data;
+        this.total = null;
+    }
+
+    // 有数据有总条数返回
+    public IMoMeiResult(Integer code, String msg, Object data, String total) {
+        this.code = code;
+        this.msg = msg;
+        this.data = data;
+        this.total = total;
     }
 
 }
