@@ -3,7 +3,7 @@
 <mapper namespace="com.imomei.dao.MemberMapper">
 
     <!--分页查询所有Member-->
-    <select id="getMemberList" parameterType="" resultType="Member">
+    <select id="getMemberList" parameterType="" resultType="com.imomei.entity.Member">
         SELECT
             *
         FROM
@@ -11,7 +11,7 @@
     </select>
 
     <!--根据ID查询Member-->
-    <select id="getMemberByID" parameterType="int" resultType="Member">
+    <select id="getMemberByID" parameterType="int" resultType="com.imomei.entity.Member">
         SELECT
             *
         FROM
@@ -19,9 +19,9 @@
         WHERE
             id = #{id}
     </select>
-    
+
     <!--新增Member-->
-    <insert id="setMember" parameterType="Member">
+    <insert id="setMember" parameterType="com.imomei.entity.Member">
         INSERT INTO
             member
         VALUES
