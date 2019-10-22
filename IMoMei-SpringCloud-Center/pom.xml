@@ -18,6 +18,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+        <!--SpirngBootWeb-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <!--Config客户端-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -29,6 +34,7 @@
         <module>IMoMei-SpringCloud-Center-Eureka</module>
         <module>IMoMei-SpringCloud-Center-Zuul</module>
         <module>IMoMei-SpringCloud-Center-Config</module>
+        <module>IMoMei-SpringCloud-Center-Common</module>
     </modules>
 
 

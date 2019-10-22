@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="IMoMei-SpringCloud-Api-Member" />
         <module name="IMoMei-SpringCloud-Api-Order" />
+        <module name="IMoMei-SpringCloud-Center-Common" />
         <module name="IMoMei-SpringCloud-Center-Config" />
         <module name="IMoMei-SpringCloud-Center-Eureka" />
         <module name="IMoMei-SpringCloud-Center-Zuul" />
@@ -17,11 +18,15 @@
         <module name="IMoMei-SpringCloud-Server-Order" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="IMoMei.SpringCloud-Common" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="IMoMei-SpringCloud-Api-Member" options="-parameters" />
       <module name="IMoMei-SpringCloud-Api-Order" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Center-Common" options="-parameters" />
       <module name="IMoMei-SpringCloud-Center-Config" options="-parameters" />
       <module name="IMoMei-SpringCloud-Center-Eureka" options="-parameters" />
       <module name="IMoMei-SpringCloud-Center-Zuul" options="-parameters" />
@@ -29,6 +34,7 @@
       <module name="IMoMei-SpringCloud-Entity-Order" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Member" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Order" options="-parameters" />
+      <module name="IMoMei.SpringCloud-Common" options="-parameters" />
     </option>
   </component>
 </project>
