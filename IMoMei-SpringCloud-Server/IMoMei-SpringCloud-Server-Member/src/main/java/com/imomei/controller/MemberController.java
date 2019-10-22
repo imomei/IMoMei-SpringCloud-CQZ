@@ -2,7 +2,6 @@ package com.imomei.controller;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
-import com.imomei.common.req.IMoMeiPage;
 import com.imomei.common.res.IMoMeiResult;
 import com.imomei.common.res.IMoMeiResultCode;
 import com.imomei.mapper.MemberMapper;
@@ -21,8 +20,8 @@ public class MemberController {
 
     // 分页查询所有Member
     @GetMapping(value = "/getMemberList")
-    public IMoMeiResult getMemberList(@RequestParam IMoMeiPage iMoMeiPage) {
-        Page<Object> page = PageHelper.startPage(iMoMeiPage.getPageNum(), iMoMeiPage.getPageSize());
+    public IMoMeiResult getMemberList(@RequestParam Integer pageNum, @RequestParam Integer pageSize) {
+        Page<Object> page = PageHelper.startPage(pageNum, pageSize);
         List<Member> memberList = memberMapper.getMemberList();
         return new IMoMeiResult(IMoMeiResultCode.SUCCESS, "查询成功", memberList, page.getTotal() + "");
     }
