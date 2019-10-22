@@ -15,5 +15,11 @@ public interface MemberMapper {
     Member getMemberByID(int id);
 
     // 新增Member
-    int setMember(Member member);
+    int insMember(Member member);
+
+    // 修改Member
+    int updMember(Member member);
+
+    // 根据ID删除Member
+    int delMember(String id);
 }

@@ -21,11 +21,30 @@
     </select>
 
     <!--新增Member-->
-    <insert id="setMember" parameterType="Member">
+    <insert id="insMember" parameterType="Member">
         INSERT INTO
             member
         VALUES
             (#{id}, #{name}, #{age})
     </insert>
+
+    <!--修改Member-->
+    <update id="updMember" parameterType="Member">
+        UPDATE member
+        SET
+            name = #{name},
+            age  = #{age}
+        WHERE
+            id = #{id}
+    </update>
+
+    <!--根据ID删除Member-->
+    <delete id="delMember" parameterType="String">
+        DELETE
+        FROM
+            member
+        WHERE
+            id = #{id}
+    </delete>
 
 </mapper>
