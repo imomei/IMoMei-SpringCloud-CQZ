@@ -1,6 +1,5 @@
 package com.imomei.mapper;
 
-import com.imomei.common.req.IMoMeiPage;
 import com.imomei.entity.Member;
 import org.springframework.stereotype.Repository;
 
