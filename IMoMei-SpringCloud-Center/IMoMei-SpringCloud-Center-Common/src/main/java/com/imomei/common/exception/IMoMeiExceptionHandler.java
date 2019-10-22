@@ -2,6 +2,8 @@ package com.imomei.common.exception;
 
 import com.imomei.common.res.IMoMeiResult;
 import com.imomei.common.res.IMoMeiResultCode;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Date;
 
 /***
  * 全局异常拦截类
@@ -16,15 +19,19 @@ import javax.servlet.http.HttpServletRequest;
 @RestControllerAdvice
 public class IMoMeiExceptionHandler implements ErrorController {
 
+    Logger log = LoggerFactory.getLogger(IMoMeiExceptionHandler.class);
+
     // 拦截不可预知异常
     @ExceptionHandler(value = Exception.class)
     public IMoMeiResult exception(Exception e) {
+        log.info("IMoMei不可预知异常：" + new Date() + "= = = = =" + e.getMessage());
         return new IMoMeiResult(IMoMeiResultCode.SERVER_ERROR, "系统异常");
     }
 
     // 拦截自定义异常
     @ExceptionHandler(value = IMoMeiException.class)
     public IMoMeiResult iMoMeiException(IMoMeiException e) {
+        log.info("IMoMei自定义异常：" + new Date() + "= = = = =" + e.getMessage());
         return new IMoMeiResult(e.getCode(), e.getMsg());
     }
 
