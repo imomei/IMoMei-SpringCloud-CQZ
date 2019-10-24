@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="IMoMei-SpringCloud-Api-Member" />
         <module name="IMoMei-SpringCloud-Api-Order" />
+        <module name="IMoMei-SpringCloud-Center-Admin" />
         <module name="IMoMei-SpringCloud-Center-Common" />
         <module name="IMoMei-SpringCloud-Center-Config" />
         <module name="IMoMei-SpringCloud-Center-Eureka" />
+        <module name="IMoMei-SpringCloud-Center-Sleuth" />
         <module name="IMoMei-SpringCloud-Center-Zuul" />
         <module name="IMoMei-SpringCloud-Entity-Member" />
         <module name="IMoMei-SpringCloud-Entity-Order" />
@@ -19,16 +21,22 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="IMoMei-SpringClou-Center-Sleuth" target="1.8" />
+      <module name="IMoMei-SpringCloud-Center-Bus" target="1.8" />
       <module name="IMoMei.SpringCloud-Common" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="IMoMei-SpringClou-Center-Sleuth" options="-parameters" />
       <module name="IMoMei-SpringCloud-Api-Member" options="-parameters" />
       <module name="IMoMei-SpringCloud-Api-Order" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Center-Admin" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Center-Bus" options="-parameters" />
       <module name="IMoMei-SpringCloud-Center-Common" options="-parameters" />
       <module name="IMoMei-SpringCloud-Center-Config" options="-parameters" />
       <module name="IMoMei-SpringCloud-Center-Eureka" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Center-Sleuth" options="-parameters" />
       <module name="IMoMei-SpringCloud-Center-Zuul" options="-parameters" />
       <module name="IMoMei-SpringCloud-Entity-Member" options="-parameters" />
       <module name="IMoMei-SpringCloud-Entity-Order" options="-parameters" />

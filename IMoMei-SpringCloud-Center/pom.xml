@@ -35,6 +35,8 @@
         <module>IMoMei-SpringCloud-Center-Zuul</module>
         <module>IMoMei-SpringCloud-Center-Config</module>
         <module>IMoMei-SpringCloud-Center-Common</module>
+        <module>IMoMei-SpringCloud-Center-Sleuth</module>
+        <module>IMoMei-SpringCloud-Center-Admin</module>
     </modules>
 
 
