@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="fdsfa" />
         <module name="IMoMei-SpringCloud-Api-Member" />
         <module name="IMoMei-SpringCloud-Api-Order" />
         <module name="IMoMei-SpringCloud-Center-Admin" />
@@ -16,8 +17,10 @@
         <module name="IMoMei-SpringCloud-Center-Zuul" />
         <module name="IMoMei-SpringCloud-Entity-Member" />
         <module name="IMoMei-SpringCloud-Entity-Order" />
+        <module name="IMoMei-SpringCloud-Server-Commentaries" />
         <module name="IMoMei-SpringCloud-Server-Member" />
         <module name="IMoMei-SpringCloud-Server-Order" />
+        <module name="IMoMei-SpringCloud-Server-Search" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,9 +43,12 @@
       <module name="IMoMei-SpringCloud-Center-Zuul" options="-parameters" />
       <module name="IMoMei-SpringCloud-Entity-Member" options="-parameters" />
       <module name="IMoMei-SpringCloud-Entity-Order" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Server-Commentaries" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Member" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Order" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Server-Search" options="-parameters" />
       <module name="IMoMei.SpringCloud-Common" options="-parameters" />
+      <module name="fdsfa" options="-parameters" />
     </option>
   </component>
 </project>

@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 import java.util.Date;
 
 @Component
-
 public class ListenIMoMeiQueues {
 
     @RabbitListener(queues = "imomeiQueues1")

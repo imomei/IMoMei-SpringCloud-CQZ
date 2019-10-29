@@ -15,6 +15,9 @@
     <modules>
         <module>IMoMei-SpringCloud-Server-Member</module>
         <module>IMoMei-SpringCloud-Server-Order</module>
+        <module>IMoMei-SpringCloud-Server-Search</module>
+        <module>IMoMei-SpringCloud-Server-Commentaries</module>
+        <module>fdsfa</module>
     </modules>
 
     <dependencies>

@@ -6,9 +6,7 @@
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Api/IMoMei-SpringCloud-Api-Member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Api/IMoMei-SpringCloud-Api-Order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Center" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Center/IMoMei-SpringClou-Center-Sleuth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Center/IMoMei-SpringCloud-Center-Admin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Center/IMoMei-SpringCloud-Center-Bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Center/IMoMei-SpringCloud-Center-Common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Center/IMoMei-SpringCloud-Center-Config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Center/IMoMei-SpringCloud-Center-Eureka" charset="UTF-8" />
@@ -18,7 +16,10 @@
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Entity/IMoMei-SpringCloud-Entity-Member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Entity/IMoMei-SpringCloud-Entity-Order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Server/IMoMei-SpringCloud-Server-Commentaries" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Server/IMoMei-SpringCloud-Server-Member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Server/IMoMei-SpringCloud-Server-Order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Server/IMoMei-SpringCloud-Server-Search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IMoMei-SpringCloud-Server/fdsfa" charset="UTF-8" />
   </component>
 </project>

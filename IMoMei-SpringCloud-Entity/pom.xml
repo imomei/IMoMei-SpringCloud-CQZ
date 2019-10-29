@@ -2,28 +2,34 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--父工程-->
     <parent>
         <artifactId>IMoMei-SpringCloud-CQZ</artifactId>
         <groupId>com.imomei</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
+    <!--版本坐标-->
+    <modelVersion>4.0.0</modelVersion>
     <artifactId>IMoMei-SpringCloud-Entity</artifactId>
     <packaging>pom</packaging>
 
+    <!--子模块-->
     <modules>
         <module>IMoMei-SpringCloud-Entity-Member</module>
         <module>IMoMei-SpringCloud-Entity-Order</module>
     </modules>
 
+    <!--依赖-->
     <dependencies>
+
         <!--Lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-    </dependencies>
 
+    </dependencies>
 
 </project>
