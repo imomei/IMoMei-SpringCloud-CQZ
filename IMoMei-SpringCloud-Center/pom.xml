@@ -2,36 +2,36 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--父模块-->
     <parent>
         <artifactId>IMoMei-SpringCloud-CQZ</artifactId>
         <groupId>com.imomei</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
+    <!--版本-->
+    <modelVersion>4.0.0</modelVersion>
     <artifactId>IMoMei-SpringCloud-Center</artifactId>
     <packaging>pom</packaging>
 
+    <!--依赖jar-->
     <dependencies>
-        <!--Eureka客户端-->
+        <!--Eureka客户端
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+        -->
     </dependencies>
 
+    <!--子模块-->
     <modules>
         <module>IMoMei-SpringCloud-Center-Eureka</module>
         <module>IMoMei-SpringCloud-Center-Zuul</module>
         <module>IMoMei-SpringCloud-Center-Config</module>
         <module>IMoMei-SpringCloud-Center-Common</module>
-        <module>IMoMei-SpringCloud-Center-Sleuth</module>
         <module>IMoMei-SpringCloud-Center-Admin</module>
     </modules>
-
 
 </project>

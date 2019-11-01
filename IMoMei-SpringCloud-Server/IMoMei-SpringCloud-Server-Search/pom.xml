@@ -12,6 +12,7 @@
     <artifactId>IMoMei-SpringCloud-Server-Search</artifactId>
 
     <dependencies>
+        <!--ES-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-elasticsearch</artifactId>

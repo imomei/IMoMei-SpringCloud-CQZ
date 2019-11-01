@@ -13,7 +13,6 @@
         <module name="IMoMei-SpringCloud-Center-Common" />
         <module name="IMoMei-SpringCloud-Center-Config" />
         <module name="IMoMei-SpringCloud-Center-Eureka" />
-        <module name="IMoMei-SpringCloud-Center-Sleuth" />
         <module name="IMoMei-SpringCloud-Center-Zuul" />
         <module name="IMoMei-SpringCloud-Entity-Member" />
         <module name="IMoMei-SpringCloud-Entity-Order" />
@@ -21,11 +20,13 @@
         <module name="IMoMei-SpringCloud-Server-Member" />
         <module name="IMoMei-SpringCloud-Server-Order" />
         <module name="IMoMei-SpringCloud-Server-Search" />
+        <module name="IMoMei-SpringCloud-Server-Video" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="IMoMei-SpringClou-Center-Sleuth" target="1.8" />
       <module name="IMoMei-SpringCloud-Center-Bus" target="1.8" />
+      <module name="IMoMei-SpringCloud-Center-Sleuth" target="1.8" />
       <module name="IMoMei.SpringCloud-Common" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -47,6 +48,7 @@
       <module name="IMoMei-SpringCloud-Server-Member" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Order" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Search" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Server-Video" options="-parameters" />
       <module name="IMoMei.SpringCloud-Common" options="-parameters" />
       <module name="fdsfa" options="-parameters" />
     </option>
