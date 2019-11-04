@@ -15,16 +15,6 @@
     <artifactId>IMoMei-SpringCloud-Center</artifactId>
     <packaging>pom</packaging>
 
-    <!--依赖jar-->
-    <dependencies>
-        <!--Eureka客户端
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        -->
-    </dependencies>
-
     <!--子模块-->
     <modules>
         <module>IMoMei-SpringCloud-Center-Eureka</module>
