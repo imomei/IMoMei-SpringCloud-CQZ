@@ -19,6 +19,7 @@
     <modules>
         <module>IMoMei-SpringCloud-Entity-Member</module>
         <module>IMoMei-SpringCloud-Entity-Order</module>
+        <module>IMoMei-SpringCloud-Entity-Search</module>
     </modules>
 
     <!--依赖-->

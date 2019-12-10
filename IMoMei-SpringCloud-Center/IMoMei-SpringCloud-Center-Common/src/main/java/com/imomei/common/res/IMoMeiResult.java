@@ -7,11 +7,11 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-/***
- * 全局统一返回JSON数据样式
+/**
+ * 全局统一返回实体类
  */
 
-@Data // Get&Set
+@Data
 public class IMoMeiResult implements Serializable {
 
     // 返回状态码

@@ -1,7 +1,7 @@
 package com.imomei.common.utils;
 
-/***
- * 生成随机数工具类
+/**
+ * 随机数生成工具类
  */
 public class RandomUtils {
     /**

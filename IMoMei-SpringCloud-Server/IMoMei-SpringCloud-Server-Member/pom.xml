@@ -12,6 +12,10 @@
     <artifactId>IMoMei-SpringCloud-Server-Member</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <!--IMoMei-->
         <dependency>
             <artifactId>IMoMei-SpringCloud-Entity-Member</artifactId>

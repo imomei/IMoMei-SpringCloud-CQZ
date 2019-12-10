@@ -3,19 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <!--父模块-->
+    <!-- 项目坐标 -->
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>IMoMei-SpringCloud-Center</artifactId>
+    <packaging>pom</packaging>
+
+    <!-- 父工程 -->
     <parent>
         <artifactId>IMoMei-SpringCloud-CQZ</artifactId>
         <groupId>com.imomei</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <!--版本-->
-    <modelVersion>4.0.0</modelVersion>
-    <artifactId>IMoMei-SpringCloud-Center</artifactId>
-    <packaging>pom</packaging>
-
-    <!--子模块-->
+    <!-- 子模块 -->
     <modules>
         <module>IMoMei-SpringCloud-Center-Eureka</module>
         <module>IMoMei-SpringCloud-Center-Zuul</module>
