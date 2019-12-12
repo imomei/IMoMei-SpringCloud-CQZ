@@ -8,8 +8,20 @@ import java.io.Serializable;
 public class IMoMeiResultCode implements Serializable {
 
     // 基本状态码
-    public static final Integer SUCCESS = 20000;// 成功
-    public static final Integer ERROR = 20001;// 失败
+    public static final Integer SUCCESS = 20000;
+    public static final String SUCCESS_STRING = "操作成功";
+    public static final Integer ERROR = 20001;
+    public static final String ERROR_STRING = "操作失败";
+    public static final Integer MISSING_PARAM = 20002;
+    public static final String MISSING_PARAM_STRING = "缺失必要参数";
+    public static final Integer PAGE_ERROR = 20003;
+    public static final String PAGE_ERROR_STRING = "分页参数异常";
+    public static final Integer UPDATE_ERROR = 20004;
+    public static final String UPDATE_ERROR_STRING = "更新失败";
+    public static final Integer INSERT_ERROR = 20005;
+    public static final String INSERT_ERROR_STRING = "插入失败";
+    public static final Integer DELETE_ERROR = 20006;
+    public static final String DELETE_ERROR_STRING = "删除失败";
 
     // 上传服务异常：30100-30200
     public final static Integer UPLOAD_UPLOADFILE_ERROR = 30101;// 文件上传失败

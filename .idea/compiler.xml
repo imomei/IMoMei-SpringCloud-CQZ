@@ -13,15 +13,11 @@
         <module name="IMoMei-SpringCloud-Center-Config" />
         <module name="IMoMei-SpringCloud-Center-Eureka" />
         <module name="IMoMei-SpringCloud-Center-Zuul" />
-        <module name="IMoMei-SpringCloud-Entity-Member" />
-        <module name="IMoMei-SpringCloud-Entity-Order" />
+        <module name="IMoMei-SpringCloud-Entity-Item" />
         <module name="IMoMei-SpringCloud-Entity-Search" />
-        <module name="IMoMei-SpringCloud-Server-Commentaries" />
-        <module name="IMoMei-SpringCloud-Server-Member" />
-        <module name="IMoMei-SpringCloud-Server-Order" />
-        <module name="IMoMei-SpringCloud-Server-Redis" />
+        <module name="IMoMei-SpringCloud-Server-Item" />
         <module name="IMoMei-SpringCloud-Server-Search" />
-        <module name="IMoMei-SpringCloud-Server-Video" />
+        <module name="IMoMei-SpringCloud-Server-Upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +25,13 @@
       <module name="IMoMei-SpringClou-Center-Sleuth" target="1.8" />
       <module name="IMoMei-SpringCloud-Center-Bus" target="1.8" />
       <module name="IMoMei-SpringCloud-Center-Sleuth" target="1.8" />
+      <module name="IMoMei-SpringCloud-Entity-Member" target="1.8" />
+      <module name="IMoMei-SpringCloud-Entity-Order" target="1.8" />
+      <module name="IMoMei-SpringCloud-Server-Commentaries" target="1.8" />
+      <module name="IMoMei-SpringCloud-Server-Member" target="1.8" />
+      <module name="IMoMei-SpringCloud-Server-Order" target="1.8" />
+      <module name="IMoMei-SpringCloud-Server-Redis" target="1.8" />
+      <module name="IMoMei-SpringCloud-Server-Video" target="1.8" />
       <module name="IMoMei.SpringCloud-Common" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -44,14 +47,17 @@
       <module name="IMoMei-SpringCloud-Center-Eureka" options="-parameters" />
       <module name="IMoMei-SpringCloud-Center-Sleuth" options="-parameters" />
       <module name="IMoMei-SpringCloud-Center-Zuul" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Entity-Item" options="-parameters" />
       <module name="IMoMei-SpringCloud-Entity-Member" options="-parameters" />
       <module name="IMoMei-SpringCloud-Entity-Order" options="-parameters" />
       <module name="IMoMei-SpringCloud-Entity-Search" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Commentaries" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Server-Item" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Member" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Order" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Redis" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Search" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Server-Upload" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Video" options="-parameters" />
       <module name="IMoMei.SpringCloud-Common" options="-parameters" />
       <module name="fdsfa" options="-parameters" />

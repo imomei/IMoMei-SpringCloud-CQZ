@@ -13,6 +13,13 @@
         <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Center/IMoMei-SpringCloud-Center-Bus/pom.xml" />
         <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Center/IMoMei-SpringCloud-Center-Sleuth/pom.xml" />
         <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Center/IMoMei.SpringCloud-Common/pom.xml" />
+        <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Entity/IMoMei-SpringCloud-Entity-Member/pom.xml" />
+        <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Entity/IMoMei-SpringCloud-Entity-Order/pom.xml" />
+        <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Server/IMoMei-SpringCloud-Server-Commentaries/pom.xml" />
+        <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Server/IMoMei-SpringCloud-Server-Member/pom.xml" />
+        <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Server/IMoMei-SpringCloud-Server-Order/pom.xml" />
+        <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Server/IMoMei-SpringCloud-Server-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Server/IMoMei-SpringCloud-Server-Video/pom.xml" />
         <option value="$PROJECT_DIR$/IMoMei-SpringCloud-Server/fdsfa/pom.xml" />
       </set>
     </option>
