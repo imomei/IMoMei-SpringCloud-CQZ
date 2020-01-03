@@ -10,8 +10,18 @@ public class ArticleService {
     @Autowired
     private ArticleDao articleDao;
 
+    // 查询文章
+    public void searchArticle() {
+        Iterable<ArticleESEntity> all = articleDao.findAll();
+    }
+
     //  添加文章
-    public void saneArticle(ArticleESEntity articleESEntity) {
-        articleDao.save(articleESEntity);
+    public void saveArticle(ArticleESEntity articleESEntity) {
+        ArticleESEntity save = articleDao.save(articleESEntity);
+    }
+
+    // 删除文章
+    public void delArticle(ArticleESEntity articleESEntity) {
+        articleDao.delete(articleESEntity);
     }
 }
