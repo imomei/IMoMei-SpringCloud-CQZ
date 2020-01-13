@@ -16,6 +16,7 @@
         <module name="IMoMei-SpringCloud-Entity-Item" />
         <module name="IMoMei-SpringCloud-Entity-Search" />
         <module name="IMoMei-SpringCloud-Server-Item" />
+        <module name="IMoMei-SpringCloud-Server-MQ" />
         <module name="IMoMei-SpringCloud-Server-Search" />
         <module name="IMoMei-SpringCloud-Server-Upload" />
       </profile>
@@ -53,6 +54,7 @@
       <module name="IMoMei-SpringCloud-Entity-Search" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Commentaries" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Item" options="-parameters" />
+      <module name="IMoMei-SpringCloud-Server-MQ" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Member" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Order" options="-parameters" />
       <module name="IMoMei-SpringCloud-Server-Redis" options="-parameters" />

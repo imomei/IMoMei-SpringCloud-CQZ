@@ -16,6 +16,7 @@
         <module>IMoMei-SpringCloud-Server-Search</module>
         <module>IMoMei-SpringCloud-Server-Item</module>
         <module>IMoMei-SpringCloud-Server-Upload</module>
+        <module>IMoMei-SpringCloud-Server-MQ</module>
     </modules>
 
     <dependencies>

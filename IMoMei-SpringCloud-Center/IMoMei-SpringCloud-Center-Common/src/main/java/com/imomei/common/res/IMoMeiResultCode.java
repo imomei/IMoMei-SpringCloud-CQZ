@@ -22,6 +22,8 @@ public class IMoMeiResultCode implements Serializable {
     public static final String INSERT_ERROR_STRING = "插入失败";
     public static final Integer DELETE_ERROR = 20006;
     public static final String DELETE_ERROR_STRING = "删除失败";
+    public static final Integer UPLOAD_ERROR = 20007;
+    public static final String UPLOAD_ERROR_STRING = "上传失败";
 
     // 上传服务异常：30100-30200
     public final static Integer UPLOAD_UPLOADFILE_ERROR = 30101;// 文件上传失败
